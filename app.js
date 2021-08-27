@@ -36,14 +36,6 @@ app.use(express.json());
     database: 'mini-erp'
 })*/
 
-/*const pool = mysql.createPool({
-    connectionLimit: 10,
-    host: 'ams-ns1.greengeeks.com',
-    user: 'sbconsu1_luish',
-    password: 'LuisDenver24!',
-    database: 'sbconsu1_mini-erp'
-})*/
-
 
 var pool = mysql.createPool({
     connectionLimit : 10,
